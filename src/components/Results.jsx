@@ -7,5 +7,5 @@ export default function Results({results}) {
             <Card key={result.id} result={result}/>
         ))}
     </div>
-  )
+  );
 }
